@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>GovCon Systems | Ocupacion LLC</title>
+<meta name="description" content="Ocupacion LLC builds the 10-system GovCon infrastructure, 25+ SOPs, and full playbook inside established trade and service businesses.">
+<link rel="icon" href="logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--black:#0a0a0a;--navy:#0d1b2a;--navy-mid:#111f30;--gold:#c9a84c;--gold-lt:#e8c97a;--gold-dim:rgba(201,168,76,.1);--white:#f5f3ee;--off:rgba(245,243,238,.65);--muted:rgba(245,243,238,.38);--border:rgba(201,168,76,.18)}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;line-height:1.6;-webkit-text-size-adjust:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.label{display:inline-flex;align-items:center;gap:12px;font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.label::before{content:'';display:block;width:28px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:'Bebas Neue',sans-serif;font-weight:400;line-height:1;letter-spacing:.01em;text-transform:uppercase}
+h1{font-size:clamp(46px,12vw,104px)}
+h2{font-size:clamp(34px,7.5vw,60px)}
+h3{font-size:26px}
+.gold{color:var(--gold)}
+.btn{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--black);background:var(--gold);padding:17px 34px;text-decoration:none;display:inline-block;min-height:48px;transition:background .2s,transform .15s;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px))}
+.btn:hover{background:var(--gold-lt);transform:translateY(-2px)}
+/* header */
+header{background:#fff;border-bottom:3px solid var(--gold);padding:12px 0}
+header .wrap{display:flex;align-items:center;gap:14px}
+header img{height:44px;width:auto;display:block}
+header span{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-size:13px;color:var(--navy)}
+/* hero */
+.hero{position:relative;overflow:hidden;background:var(--navy);padding:64px 0 56px}
+.hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(201,168,76,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.04) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
+.hero::after{content:'';position:absolute;top:0;right:0;width:5px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
+.hero .wrap{position:relative;z-index:1}
+.hero p.lead{font-size:18px;color:var(--off);max-width:640px;margin:26px 0 34px;font-weight:300}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:46px;max-width:640px}
+.stat{border-left:2px solid var(--gold);padding-left:12px}
+.stat b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(26px,6vw,40px);line-height:1}
+.stat small{display:block;margin-top:4px;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+/* sections */
+section{padding:64px 0}
+.alt{background:var(--navy)}
+.intro{max-width:680px;color:var(--off);margin-top:16px;font-weight:300}
+.grid{display:grid;gap:14px;margin-top:36px}
+.card{background:var(--navy-mid);border:1px solid var(--border);padding:24px 22px;position:relative}
+.alt .card{background:var(--black)}
+.card .n{position:absolute;top:10px;right:16px;font-family:'Bebas Neue',sans-serif;font-size:56px;color:rgba(245,243,238,.06);line-height:1}
+.card h3{color:var(--white);margin-bottom:8px}
+.card p{font-size:15px;color:var(--off);font-weight:300}
+.pain{list-style:none;margin-top:30px;display:grid;gap:12px;max-width:760px}
+.pain li{display:flex;gap:12px;color:var(--off);font-weight:300}
+.pain li::before{content:'\2192';color:var(--gold);flex:none}
+.tiers .price{font-family:'Bebas Neue',sans-serif;font-size:54px;color:var(--gold);line-height:1;margin:6px 0 4px}
+.tiers .tag{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.creds{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:32px}
+.cred{border:1px solid var(--border);padding:16px 14px;font-size:13px;color:var(--off)}
+.cred b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:24px;color:var(--white);letter-spacing:.02em}
+.cta{text-align:center;background:var(--navy);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.cta h2{max-width:760px;margin:0 auto 26px}
+footer{padding:30px 0 40px;font-size:12px;color:var(--muted);text-align:center;letter-spacing:.04em}
+@media(min-width:720px){
+ .wrap{padding:0 40px}
+ .hero{padding:110px 0 90px}
+ section{padding:96px 0}
+ .grid.c3{grid-template-columns:repeat(3,1fr)}
+ .grid.c2{grid-template-columns:repeat(2,1fr)}
+ .creds{grid-template-columns:repeat(4,1fr)}
+ header img{height:52px}
+}
+
+
+.hero.split .wrap{display:grid;gap:36px;align-items:center}
+.panel{border:1px solid var(--border);background:var(--navy-mid);padding:26px 22px;position:relative}
+.panel::before{content:'';position:absolute;top:-1px;left:-1px;width:44px;height:3px;background:var(--gold)}
+.panel .row{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--border)}
+.panel .row:last-child{border-bottom:0;padding-bottom:0}
+.panel .row b{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(40px,10vw,60px);line-height:1;color:var(--gold)}
+.panel .row b.sm{font-size:clamp(28px,7vw,36px)}
+.panel .row small{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--off);text-align:right;font-weight:600}
+.flist{list-style:none;margin-top:36px;border-top:1px solid var(--border);counter-reset:f}
+.flist li{display:grid;grid-template-columns:52px 1fr;gap:6px 12px;padding:20px 0;border-bottom:1px solid var(--border);align-items:baseline}
+.flist li::before{counter-increment:f;content:counter(f,decimal-leading-zero);font-family:'Bebas Neue',sans-serif;font-size:34px;color:var(--gold);line-height:1}
+.flist h3{font-size:28px}
+.flist p{grid-column:2;color:var(--off);font-weight:300;font-size:15px}
+.vs{display:grid;gap:14px;margin-top:36px}
+.vs .card h3{margin-bottom:14px}
+.vs .no{border-color:rgba(245,243,238,.14)}
+.vs .yes{border-color:var(--gold)}
+.vs ul{list-style:none;display:grid;gap:10px}
+.vs li{display:flex;gap:12px;color:var(--off);font-weight:300;font-size:15px}
+.vs .no li::before{content:'\2715';color:var(--muted);flex:none}
+.vs .yes li::before{content:'\2713';color:var(--gold);flex:none}
+@media(min-width:720px){
+ .wrap{padding:0 40px}
+ .hero{padding:110px 0 90px}
+ section{padding:96px 0}
+ header img{height:52px}
+ .hero.split .wrap{grid-template-columns:1.25fr 1fr;gap:64px}
+ .flist li{grid-template-columns:80px 260px 1fr;padding:24px 0}
+ .flist li::before{font-size:44px}
+ .flist p{grid-column:3}
+ .vs{grid-template-columns:1fr 1fr}
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img src="logo.webp" alt="Ocupacion LLC logo" width="52" height="52">
+    <span>Ocupacion LLC</span>
+  </div>
+</header>
+
+<main>
+<div class="hero split">
+  <div class="wrap">
+    <div>
+      <div class="label">SBA-Certified SDVOSB | GovCon Systems</div>
+      <h1>Ten Systems.<br><span class="gold">One GovCon</span><br>Department.</h1>
+      <p class="lead">The 10-system GovCon infrastructure, 25+ SOPs, and a full playbook, built inside your existing trade, facility, or service business.</p>
+      <a class="btn" href="https://ocupacionllc.com/">See How It Works</a>
+    </div>
+    <div class="panel">
+      <div class="row"><b>10</b><small>Systems</small></div>
+      <div class="row"><b>25+</b><small>SOPs</small></div>
+      <div class="row"><b class="sm">$7,750 + $2,500/mo</b><small>Full Integration</small></div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="label">The Seven Functions</div>
+    <h2>What The Department<br><span class="gold">Is Made Of.</span></h2>
+    <ul class="flist">
+      <li><h3>Strategy</h3><p>Which agencies, which contract types, and which of your services to pursue.</p></li>
+      <li><h3>Pipeline</h3><p>A repeatable way to find opportunities instead of searching SAM.gov at random.</p></li>
+      <li><h3>Capture</h3><p>A capture plan in place before the RFP is released.</p></li>
+      <li><h3>Proposals</h3><p>A working proposal process, so you stop starting from a blank document.</p></li>
+      <li><h3>Pricing</h3><p>A government pricing process with competitive pricing research.</p></li>
+      <li><h3>SOPs</h3><p>Government contracting runs from written SOPs, not the owner's memory.</p></li>
+      <li><h3>Contract Management</h3><p>Awards managed and performed as a department function.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="label">Built, Not Bought</div>
+    <h2>Bidding Randomly<br><span class="gold">Or Running A Department.</span></h2>
+    <div class="vs">
+      <div class="card no">
+        <h3>Bidding Randomly</h3>
+        <ul>
+          <li>No system for finding the right government opportunities</li>
+          <li>Searching SAM.gov randomly with no targeting strategy</li>
+          <li>No bid/no-bid process, pursuing everything or nothing</li>
+          <li>Starting every proposal from a blank document</li>
+          <li>No SOPs, government contracting runs from the owner's memory</li>
+        </ul>
+      </div>
+      <div class="card yes">
+        <h3>Running A Department</h3>
+        <ul>
+          <li>A pipeline that finds the right opportunities</li>
+          <li>A capture plan before the RFP is released</li>
+          <li>A bid/no-bid process you follow every time</li>
+          <li>A proposal process and a government pricing process</li>
+          <li>25+ SOPs and a full playbook</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Government Contracting Should Operate<br>Like <span class="gold">A Department.</span></h2>
+    <a class="btn" href="https://ocupacionllc.com/">See How It Works</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Ocupacion LLC &middot; Kannapolis, NC &middot; Serving Nationwide &middot; (980) 680-7514</div>
+</footer>
+
+</body>
+</html>
